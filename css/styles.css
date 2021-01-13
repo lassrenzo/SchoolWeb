@@ -1,0 +1,163 @@
+*{
+  scroll-behavior: smooth;
+}
+
+/*css varibles*/
+:root {
+    --hero-title: 'Poppins', sans-serif;
+    --default-text: 'Montserrat', sans-serif;
+}
+
+/*font styles*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+/* code for the body section */
+body {
+
+  font-family: var(--default-text);
+  background: #f4f9f4;
+}
+
+/*code for container fluid*/
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/*code for container fluid2 */ 
+.container-fluid2 {
+  padding: 0 5%;
+}
+
+.logo-img {
+  width: 20%;
+}
+
+/* code for h1-h6 
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--hero-title);
+  font-weight: bold;
+}
+*/
+
+/*code for hero page*/
+.hero-img {
+ 
+  width:100%;
+  
+/* box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+position: relative;
+animation-name: hero-img;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;*/
+}
+/*
+@keyframes hero-img {
+  0%   {
+  left:0px; 
+  top:0px;
+  }
+  25%  {
+  left:50px; 
+  top:0px;
+  }
+  50%  {
+  left:50px; 
+  top:50px;
+  }
+  75%  {
+  left:0px; 
+  top:50px;
+  }
+  100% {
+  left:0px; 
+  top:0px;
+  }
+}
+*/
+
+/*code for hero title*/
+.hero-title {
+  font-style: var(--hero-title);
+}
+
+/*code for hero subtitle*/
+.hero-subtitle, .nav-link, .hero-btn {
+  font-style: var(--default-text);
+}
+
+/*code for courses sec*/
+.plain-color {
+  background: #f4f4f4;
+  width: 100%;
+  
+}
+.course-text{
+  text-align: center;
+}
+/* .course-btn {
+width: 100% !important;
+}*/
+.course-column {
+text-align: center !important;
+margin:5% 0;
+}
+
+
+/* code for feature section */
+
+.dark-section {
+  background-color: #838383;
+  padding: 5%;
+}
+.feature-section {
+  text-align: center;
+  color: #eee;
+}
+.icon-features:hover {
+  color: #a6a6a4;
+}
+
+/*code for light section*/
+.light-section {
+  background: #fadcac;
+  width: 100%;
+  padding: 5%;
+  text-align: center;
+}
+.about-img {
+  margin-top: 10px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+/*code for footer*/
+.dark-color {
+  background: #252525;
+  color: #eee;
+  text-align: center;
+  
+}
+.icon-footer {
+  padding-right: 5px;
+  
+}
+.dark-color :hover {
+  text-decoration: none;
+  
+}
+/*mobile responsive*/
+@media only screen and (max-width: 1178px) {
+  body {
+    text-align: center;
+    background: #f4f9f4;
+  }
+  .hero-img {
+      margin-top: 10%;
+  }
+  .feature-section {
+    padding:5%;
+}
+
+}
+
